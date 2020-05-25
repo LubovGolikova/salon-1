@@ -31,6 +31,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">КОНТАКТЫ</a>
                     </li>
+                    @auth
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin">Управление услугами</a>
+                        </li>
+                    @endauth
                 </ul>
                 <span class="navbar-text">
       ЗВОНИТЕ +380934567656
