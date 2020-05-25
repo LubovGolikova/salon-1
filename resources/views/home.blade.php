@@ -1,4 +1,5 @@
-@include('header')
+@extends('layouts.app')
+@section('content')
 <section class="box-1 row">
     <div class="container-right-box1 col-md-6">
         <div class="box1-img">
@@ -45,4 +46,4 @@
     </div>
     <a type="button"  href="/services" class="btn btn-dark btn-down">ЗАПИСАТЬСЯ</a>
 </section>
-@include('footer')
+@endsection
