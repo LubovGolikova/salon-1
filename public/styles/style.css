@@ -27,6 +27,7 @@ img{
     position:relative ;
 }
 .box-1-bg{
+
     background-color: #FEEFF2!important;
     min-height:108px;
 }
@@ -88,4 +89,42 @@ img{
 .footer-base{
     background-color: #FFFFEE !important;
     min-height: 100px;
+}
+.bg-light-p {
+    background-color: #FEE4CF !important;
+    min-height: 100px;
+}
+
+.box-2s{
+    background-color: #FEE4CF;
+}
+.box-2s-text h3{
+    text-transform:uppercase;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    font-size:43px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: #947B76;
+}
+.tr{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(64, 79, 110);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-bottom: 120px;
+}
+.tr.active{
+    font-size: 16px;
+    font-family: "Arial";
+    color: red;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 40px;
+    padding-bottom: 120px;
 }
