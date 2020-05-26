@@ -137,3 +137,13 @@ img{
     margin-bottom: 20px;
 
 }
+.picture-service{
+    padding-left: 10px;
+}
+.container-service{
+    background: #e8e8e8;
+    padding: 30px;
+}
+.content-service{
+    padding-left: 10px;
+}

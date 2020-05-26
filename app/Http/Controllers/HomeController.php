@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Service;
 class HomeController extends Controller
 {
     /**
@@ -23,7 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $services = Service::orderBy('created_at','DESC');
+        return view('home',compact('services'));
     }
     public function services(){
         return view('services');

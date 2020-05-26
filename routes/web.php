@@ -11,13 +11,13 @@
 |
 */
 
-Route::get('/', function () { return view('home');
-});
+//Route::get('/', function () { return view('home');});
 Route::get('/services',"HomeController@services");
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index');
 
 Auth::routes();
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/admin','AdminController@index');
-Route::post('/admin/services/create','AdminController@create');
+Route::get('/admin/services/create','AdminController@create');
+Route::resource('/admin/services','ServiceController');

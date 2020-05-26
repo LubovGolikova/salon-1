@@ -15,7 +15,7 @@
                 </ul>
             </div>
         @endif
-        <form method="POST" action="/admin/services/create" enctype="multipart/form-data">
+        <form method="POST" action="/admin/services" enctype="multipart/form-data">
             @csrf
 
             <div class="form-group row">
@@ -32,6 +32,19 @@
             </div>
 
             <div class="form-group row">
+                <label for="description" class="col-md-4 col-form-label text-md-right">Текстовое описание</label>
+                <div class="col">
+                    <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('description') is-invalid @enderror">{{ old('description')}}</textarea>
+                    @error('description')
+                    <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
+                </div>
+            </div>
+
+
+            <div class="form-group row">
                 <div class="col offset-md-4">
                     <div class="input-group">
                        <span class="input-group-btn">
@@ -45,17 +58,6 @@
                 </div>
             </div>
 
-            <div class="form-group row">
-                <label for="description" class="col-md-4 col-form-label text-md-right">Текстовое описание</label>
-                <div class="col">
-                    <textarea name="description" id="description" cols="30" rows="10" class="form-control @error('description') is-invalid @enderror">{{ old('description')}}</textarea>
-                    @error('description')
-                    <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                    @enderror
-                </div>
-            </div>
 
             <div class="form-group row">
                 <label for="price" class="col-md-4 col-form-label text-md-right">Цена</label>
