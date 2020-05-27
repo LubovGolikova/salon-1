@@ -12,18 +12,21 @@
 */
 
 Auth::routes();
-
-Route::get('/services',"HomeController@services");
-
-Route::get('/', 'HomeController@index');
-
-
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
+
+
+
+Route::get('/', 'HomeController@index');
+Route::get('/services',"HomeController@services");
+
+
+//admin
 Route::get('/admin','AdminController@index');
-
 Route::get('/admin/services/create','AdminController@create');
-
 Route::resource('/admin/services','ServiceController');
-
 Route::get('/admin/services/{{$service->id}}','ServiceController@edit');
+
+//order
+Route::get('/order','OrderController@index');
+

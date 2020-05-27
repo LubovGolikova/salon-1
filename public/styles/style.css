@@ -147,3 +147,30 @@ img{
 .content-service{
     padding-left: 10px;
 }
+.btn-group {
+    display: block !important;
+}
+
+/*order*/
+.box-3{
+    background: #FEE2D6;
+
+}
+.container.order{
+    background:#F8E2D4;
+    min-height: 1200px;
+    padding: 10px 20px 10px 10px;
+}
+.back a{
+    font-family: 'Open Sans';
+    color: #9BBDC2;
+    font-size: 16px;
+}
+.title h2{
+    margin-top: 40px;
+    margin-left:40px;
+    font-family: 'Open Sans';
+    color: #000000;
+
+
+}
