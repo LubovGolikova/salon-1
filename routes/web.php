@@ -11,13 +11,19 @@
 |
 */
 
-//Route::get('/', function () { return view('home');});
+Auth::routes();
+
 Route::get('/services',"HomeController@services");
 
 Route::get('/', 'HomeController@index');
 
-Auth::routes();
+
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 Route::get('/admin','AdminController@index');
+
 Route::get('/admin/services/create','AdminController@create');
+
 Route::resource('/admin/services','ServiceController');
+
+Route::get('/admin/services/{{$service->id}}','ServiceController@edit');

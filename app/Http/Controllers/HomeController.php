@@ -23,10 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $services = Service::orderBy('created_at','DESC');
-        return view('home',compact('services'));
+        return view('home');
     }
     public function services(){
-        return view('services');
+        $allservices = Service::all();
+        return view('services',compact('allservices'));
     }
 }

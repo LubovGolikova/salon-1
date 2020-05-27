@@ -15,7 +15,8 @@ class ServiceController extends Controller
      */
     public function index()
     {
-
+        $allservices = Service::all();
+        return view('admin.allAdmin',compact('allservices'));
     }
 
     /**
@@ -46,6 +47,7 @@ class ServiceController extends Controller
         $services = new Service();
         $services->name = $request->name;
         $services->description = $request->description;
+        $services->time = $request->time;
         $services->price = $request->price;
         $services->path = $request->path;
         $services->user_id = Auth::user()->id;
@@ -72,7 +74,8 @@ class ServiceController extends Controller
      */
     public function edit($id)
     {
-        //
+        $service =Service::find($id);
+        return view('admin.editAdmin',compact('service'));
     }
 
     /**
@@ -84,7 +87,22 @@ class ServiceController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validator = Validator::make($request->all(), [
+            'name'=>'required|min:3|max:150',
+            'description'=>'required',
+        ]);
+        if($validator->fails()){
+            return redirect('/admin/services/create')->withErrors($validator)->withInput();
+        }
+        $services = Service::find($id);
+        $services->name = $request->name;
+        $services->description = $request->description;
+        $services->time = $request->time;
+        $services->price = $request->price;
+        $services->path = $request->path;
+        $services->user_id = Auth::user()->id;
+        $services->save();
+        return redirect('/admin/services')->with('success', 'Данные сохранены');
     }
 
     /**
@@ -95,6 +113,7 @@ class ServiceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Service::find($id)->delete();
+        return back();
     }
 }
