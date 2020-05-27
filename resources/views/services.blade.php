@@ -18,7 +18,7 @@
                <p class="card-text">{!!$service->description!!}</p>
                 <p class="card-text">{{$service->time}}</p>
                  <p class="card-text">{{$service->price}} грн.</p>
-               <a href="#" class="btn btn-primary">Записаться</a>
+               <a href="#" class="btn btn-dark">Записаться</a>
              </div>
            </div>
        @endforeach

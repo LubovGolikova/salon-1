@@ -8,6 +8,7 @@ img{
 
 .btn-up{
     margin-left: 40px !important;
+    color: #fff!important;
 }
 
 .bg-light-pink {
@@ -171,6 +172,7 @@ img{
     margin-left:40px;
     font-family: 'Open Sans';
     color: #000000;
-
-
+}
+.form-control {
+    background-color: #FEF2E8 !important;
 }

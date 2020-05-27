@@ -28,5 +28,5 @@ Route::resource('/admin/services','ServiceController');
 Route::get('/admin/services/{{$service->id}}','ServiceController@edit');
 
 //order
-Route::get('/order','OrderController@index');
+Route::get('/order','CustomerController@index');
 
