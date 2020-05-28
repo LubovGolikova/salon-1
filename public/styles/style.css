@@ -98,6 +98,9 @@ body{
 .box-2s{
     background-color: #FEE4CF;
 }
+.nav-service{
+    cursor:pointer;
+}
 .box-2s-text h3{
     text-transform:uppercase;
     padding-top: 50px;
@@ -109,7 +112,7 @@ body{
 }
 .tr{
     font-size: 16px;
-    font-family: "Arial";
+    font-family: 'Open Sans';
     color: rgb(64, 79, 110);
     line-height: 1.2;
     text-align: left;
@@ -119,7 +122,7 @@ body{
 }
 .tr.active{
     font-size: 16px;
-    font-family: "Arial";
+    font-family: 'Open Sans';
     color: red;
     font-weight: 700;
     line-height: 1.2;

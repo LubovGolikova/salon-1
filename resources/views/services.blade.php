@@ -2,7 +2,7 @@
 <section class="box-2s">
     <div class="box-2s-text align-items-center text-center justify-content-center">
         <h3>Онлайн запись</h3>
-        <div class="btn-group" role="group" aria-label="Basic example">
+        <div class="btn-group nav-service" role="group" aria-label="Basic example">
             <a  class="tr {!!Request::is('/manicure') ? 'active' : '' !!}">Маникюр</a>
             <a class="tr {!!Request::is('/coating') ? 'active' : '' !!}">Покрытие</a>
             <a  class="tr{!!Request::is('/pedicure') ? 'active' : '' !!}">Педикюр</a>
