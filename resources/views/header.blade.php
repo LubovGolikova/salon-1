@@ -33,7 +33,7 @@
                     </li>
                     @auth
                         <li class="nav-item">
-                            <a class="nav-link" href="/admin">Управление услугами</a>
+                            <a class="nav-link" href="/admin">Управление</a>
                         </li>
                     @endauth
                 </ul>

@@ -25,7 +25,7 @@ class CustomerController extends Controller
         $customer->email = $request->email;
         $customer->message = $request->message;
         $customer->save();
-        return redirect('/order')->with('success', 'Данные сохранены');
+        return redirect('/order')->with('success', 'Заказ оформлен');
 
     }
 }

@@ -25,8 +25,10 @@ Route::get('/services',"HomeController@services");
 Route::get('/admin','AdminController@index');
 Route::get('/admin/services/create','AdminController@create');
 Route::resource('/admin/services','ServiceController');
+Route::resource('/admin/orders','OrderController');
 Route::get('/admin/services/{{$service->id}}','ServiceController@edit');
 
 //order
 Route::get('/order','CustomerController@index');
+Route::post('/order/add','CustomerController@add');
 

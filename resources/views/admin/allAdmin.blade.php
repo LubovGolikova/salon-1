@@ -13,7 +13,7 @@
                     <div class="content-service">
                         {!! $service->description !!}
                         <p>{{$service->time}}</p>
-                        <p>{{$service->price}}</p>
+                        <p>{{$service->price}} грн.</p>
                     </div>
                 </div>
              <p>----------------------</p>
