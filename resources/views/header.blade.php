@@ -38,7 +38,7 @@
                     @endauth
                 </ul>
                 <span class="navbar-text">
-      ЗВОНИТЕ +380934567656
+                        ЗВОНИТЕ +380934567656
                     <a type="button" href="/order" class="btn btn-dark btn-up">ЗАПИСАТЬСЯ</a>
     </span>
             </div>

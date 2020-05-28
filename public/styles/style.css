@@ -87,10 +87,7 @@ img{
     margin-bottom: 166px;
     margin-left: 711px;
 }
-.footer-base{
-    background-color: #FFFFEE !important;
-    min-height: 100px;
-}
+
 .bg-light-p {
     background-color: #FEE4CF !important;
     min-height: 100px;
@@ -175,4 +172,28 @@ img{
 }
 .form-control {
     background-color: #FEF2E8 !important;
+}
+/*footer*/
+
+.footer-base{
+    background-color: #FFFFEE !important;
+    min-height: 100px;
+}
+.footer-title span:nth-child(1){
+     font-family: 'Open Sans';
+     font-size: 15px;
+     text-transform:uppercase;
+     letter-spacing: 0.05em;
+ }
+.footer-title span{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    padding: 40px;
+}
+.footer-box-1{
+    border-right: 1px solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 100px;
 }

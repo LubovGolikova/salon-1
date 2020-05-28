@@ -1,10 +1,31 @@
 <footer id="footerId">
-    <div class="footer-base row align-items-center  text-center  justify-content-center flex-column flex-md-row">
-        <a class="nav-link {!!Request::is('/') ? 'active' : '' !!}" href="/">Главная</a>
-        <a class="nav-link {!!Request::is('/') ? 'active' : '' !!}" href="">Услуги</a>
-        <a class="nav-link {!!Request::is('/') ? 'active' : '' !!}" href="">О нас</a>
-        <a class="nav-link {!!Request::is('') ? 'active' : '' !!}" href="">Контакты</a>
+<div class="footer-base">
+<div class="row align-items-center  text-center  justify-content-center ">
+    <div class="footer-box-1">
+        <div class="footer-title">
+            <span>Адрес</span><br>
+            <span>ул.Яценко, 16</span><br>
+            <span>г.Запорожье</span><br>
+            <span>Украина</span>
+        </div>
     </div>
+    <div class="footer-box-1">
+        <div class="footer-title">
+            <span>Контакты</span><br>
+            <span>Т/+38 067-647-87-07</span>
+        </div>
+    </div>
+    <div class="footer-box-1">
+        <div class="footer-title">
+            <span>Часы работы</span><br>
+            <span>Пон-Пят/12:00-20:00</span><br>
+            <span>Суб/11:00-20:00 </span><br>
+            <span>Вос/12:00-19:00 </span>
+        </div>
+    </div>
+
+</div>
+</div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
