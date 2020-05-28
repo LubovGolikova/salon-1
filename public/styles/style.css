@@ -5,7 +5,9 @@
 img{
     max-width: 100%;
 }
-
+body{
+    background: #FEE2D6!important;
+}
 .btn-up{
     margin-left: 40px !important;
     color: #fff!important;
@@ -127,13 +129,12 @@ img{
     padding-bottom: 120px;
 }
 .services{
-    background: #fff;
+    background:#F8E2D4;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    margin-top: 15px;
+    margin-top: -20px;
     min-height: 1200px;
     padding: 10px 20px 10px 10px;
-    margin-bottom: 20px;
-
+    margin-bottom: 40px;
 }
 .picture-service{
     padding-left: 10px;
@@ -141,6 +142,24 @@ img{
 .container-service{
     background: #e8e8e8;
     padding: 30px;
+}
+.container.services h1{
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-transform:uppercase;
+    margin: 40px;
+    color:red;
+    text-align: center;
+
+}
+.services-main a {
+    text-decoration: none;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-transform:uppercase;
+    padding-top: 20px;
+    color: rgba(0,0,0,.9)!important;
 }
 .content-service{
     padding-left: 10px;
@@ -150,15 +169,6 @@ img{
 }
 
 /*order*/
-.box-3{
-    background: #FEE2D6;
-
-}
-.container.order{
-    background:#F8E2D4;
-    min-height: 1200px;
-    padding: 10px 20px 10px 10px;
-}
 .back a{
     font-family: 'Open Sans';
     color: #9BBDC2;

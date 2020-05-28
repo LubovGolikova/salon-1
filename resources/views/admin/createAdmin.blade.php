@@ -1,8 +1,10 @@
 
 @extends('layouts.app')
 @section('content')
-    <div class="container services">
-        <h1>Добавить услугу</h1>
+   <div class="container services mt-3">
+       <div class="title mb-5">
+           <h2>Добавить услугу</h2>
+       </div>
         @if( session('success') )
             <div class="alert alert-success">{{session('success')}}</div>
         @endif

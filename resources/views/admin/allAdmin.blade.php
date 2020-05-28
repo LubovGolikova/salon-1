@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container services">
-        <h1>Все  услуги</h1>
-
+    <div class="container services mt-3">
+        <div class="title mb-5">
+            <h2>Все  услуги</h2>
+        </div>
     @foreach($allservices as $service)
             <div class="container-service mb-5">
                 <h4>{{$service->name}}</h4>

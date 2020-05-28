@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="box-3">
-    <div class="container order">
+    <div class="container services mt-3">
         <div class="back">
             <a type="button"  href="/" >< Назад</a>
         </div>
@@ -88,5 +87,4 @@
             </div>
         </div>
     </div>
-</section>
 @endsection
