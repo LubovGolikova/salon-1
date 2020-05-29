@@ -213,5 +213,28 @@ body{
 }
 /*calendar*/
 .calendar{
-    margin-left:120px;
+    margin-left:40px;
+}
+.btn-time{
+    background-color: transparent!important;
+    border:3px black solid;
+    color: #000000!important;
+    min-width: 200px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.time-container{
+    /*margin: auto;*/
+}
+.times{
+    /*margin-left: auto;*/
+}
+.container-datetime-service{
+    border: 1px black solid;
+    padding: 25px;
+    margin-right: 40px;
+}
+.btn-goon{
+    margin-top: 120px;
+    margin-bottom: 120px;
 }

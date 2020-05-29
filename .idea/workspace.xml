@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84512f73-5075-4177-8549-4126bfa309db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/datatimes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/datatimes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1590400570047" duration="14695000" />
       <workItem from="1590575335497" duration="47000" />
       <workItem from="1590575385223" duration="28226000" />
-      <workItem from="1590678180522" duration="9689000" />
+      <workItem from="1590678180522" duration="15564000" />
     </task>
     <task id="LOCAL-00001" summary="add services">
       <created>1590408342910</created>
