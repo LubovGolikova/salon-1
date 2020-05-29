@@ -97,6 +97,7 @@ body{
 
 .box-2s{
     background-color: #FEE4CF;
+    min-height: 1000px;
 }
 .nav-service{
     cursor:pointer;

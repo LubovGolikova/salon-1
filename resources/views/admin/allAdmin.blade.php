@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container services mt-3">
+    <div class="container services mt-3 mb-5">
         <div class="title mb-5">
             <h2>Все  услуги</h2>
         </div>

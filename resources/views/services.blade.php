@@ -1,5 +1,5 @@
 @include('header')
-<section class="box-2s">
+<section class="box-2s ">
     <div class="box-2s-text align-items-center text-center justify-content-center">
         <h3>Онлайн запись</h3>
         <div class="btn-group nav-service" role="group" aria-label="Basic example">
@@ -18,18 +18,11 @@
                <p class="card-text">{!!$service->description!!}</p>
                 <p class="card-text">{{$service->time}}</p>
                  <p class="card-text">{{$service->price}} грн.</p>
-               <a href="#" class="btn btn-dark">Добавить</a>
+               <a href="/datatimes/{{$service->id}}" class="btn btn-dark">Добавить</a>
              </div>
            </div>
        @endforeach
 </div>
-    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-        <div class="btn-group mr-2" role="group" aria-label="First group">
-            <a href="/services">
-                <button type="button" class="btn btn-dark btn-down">ВЫБРАТЬ ДАТУ</button>
-            </a>
-        </div>
-    </div>
 
 </section>
 @include('footer')

@@ -29,4 +29,9 @@ class HomeController extends Controller
         $allservices = Service::all();
         return view('services',compact('allservices'));
     }
+    public function datatimes($id){
+        $service=Service::find($id);
+        return view('datatimes',compact('service'));
+
+    }
 }
