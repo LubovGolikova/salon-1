@@ -15,4 +15,7 @@ class Service extends Model
         $arr = explode('/', $path);
         return $arr[1].'/'. $arr[2].'/thumbs/'. $arr[3];
     }
+    public function orderlines(){
+        return $this->belongsTo('App\OrderLines');
+    }
 }

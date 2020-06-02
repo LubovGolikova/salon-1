@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\OrderLines;
+use App\Service;
 use Illuminate\Http\Request;
 use Validator;
 use App\Customer;
