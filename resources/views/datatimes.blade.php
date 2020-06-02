@@ -4,23 +4,12 @@
         <div class="title mb-5">
             <h2>Записаться</h2>
         </div>
-        @if( session('success') )
-            <div class="alert alert-success">{{session('success')}}</div>
-        @endif
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-        <form method="POST"action=""  enctype="multipart/form-data">
+
+        <form method="POST" action=""  enctype="multipart/form-data">
         <div class="row">
                 @csrf
                 <div class="col-md-4">
-                    Выбрать дату : <span id="getDate"></span>
+                    Выбрать дату : <span id="getDate">getDate()</span>
                     <div class="calendar ">
                         <input type="text" id="datepicker" name="DateT" value="{{ old('DateT') }}"  width="276" />
                         <script>
@@ -55,6 +44,8 @@
                         <h2>{!! $service->description!!}</h2>
                         <h2>{{$service->time}}</h2>
                         <h2>{{$service->price}} грн.</h2>
+                        <h2>getDate()</h2>
+                        <h2>getTime()</h2>
                         <button type="submit"  href="/order"  class="btn btn-dark btn-goon">ПРОДОЛЖИТЬ</button>
                     </div>
                 </div>

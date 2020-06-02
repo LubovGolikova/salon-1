@@ -1,9 +1,9 @@
-@include('header')
+@include('')
 <section class="box-1 ">
     <div class="box-1-text">
-        <h3>МЫ НАХОДИМСЯ</h3>
+        <h3>НАХОДИМСЯ</h3>
         <p>Вознесеновский  район</p>
-        <p>ул. Яценко, 16</p>
+        <p>ул. Яценко, 16МЫ </p>
     </div>
 
     <div class="row align-items-center justify-content-center pt-5 text-center">

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84512f73-5075-4177-8549-4126bfa309db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_02_091046_create_order_lines_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OrderLines.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_27_140048_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_27_140048_create_customers_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/datatimes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/datatimes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/about.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +194,7 @@
       <workItem from="1590575335497" duration="47000" />
       <workItem from="1590575385223" duration="28226000" />
       <workItem from="1590678180522" duration="27327000" />
-      <workItem from="1590845214663" duration="35254000" />
+      <workItem from="1590845214663" duration="40913000" />
     </task>
     <task id="LOCAL-00001" summary="add services">
       <created>1590408342910</created>
@@ -288,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591082576591</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add some datatimes">
+      <created>1591090948449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591090948449</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +313,8 @@
     <MESSAGE value="add footer" />
     <MESSAGE value="add some landing" />
     <MESSAGE value="add some about" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some about" />
+    <MESSAGE value="add some datatimes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some datatimes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="18" key="#PHP" timestamp="1590944694394">

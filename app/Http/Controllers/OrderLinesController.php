@@ -9,12 +9,13 @@ class OrderLinesController extends Controller
     public function index(){
         return view('datatimes');
     }
-    public function add(Request $request,$id){
+    public function add(Request $request){
+        $service = Service::find($request->id);
         $orderlines = new OrderLines();
         $orderlines->DateT = $request->DateT;
-        $orderlines->services_id = Service::find($id);
+        $orderlines->services_id = $service->id;
         $orderlines->save();
-        return redirect('/datatimes/{id}')->with('success', 'Дата выбрана');
+        return redirect('/order');
 
     }
 }
