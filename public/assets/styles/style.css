@@ -86,3 +86,13 @@ img{
     background-color: #FFFFEE !important;
     min-height: 100px;
 }
+/*about*/
+.box-3-img {
+    max-width: 600px !important;
+    max-height: 600px;
+}
+.text{
+    margin: 60px;
+}
+
+

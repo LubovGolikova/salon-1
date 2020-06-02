@@ -35,10 +35,7 @@
                         <a class="nav-link" href="/services">УСЛУГИ<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О НАС</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">КОНТАКТЫ</a>
+                        <a class="nav-link" href="/about">О НАС</a>
                     </li>
                     @auth
                         <li class="nav-item">
@@ -47,8 +44,8 @@
                     @endauth
                 </ul>
                 <span class="navbar-text">
-                        ЗВОНИТЕ +380934567656
-                    <a type="button" href="/order" class="btn btn-dark btn-up">ЗАПИСАТЬСЯ</a>
+                       КОНТАКТЫ   +380934567656
+                    <a type="button" href="/services" class="btn btn-dark btn-up">ЗАПИСАТЬСЯ</a>
     </span>
             </div>
         </div>

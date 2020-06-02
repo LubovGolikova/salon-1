@@ -6,7 +6,7 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                Date is : <span id="getDate"></span>
+                Выбрать дату : <span id="getDate"></span>
                 <div class="calendar ">
                     <input id="datepicker" width="276" />
                     <script>

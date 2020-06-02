@@ -20,6 +20,7 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 Route::get('/', 'HomeController@index');
 Route::get('/services',"HomeController@services");
 Route::get('/datatimes/{id}',"HomeController@datatimes");
+Route::get('/about',"HomeController@about");
 
 
 //admin

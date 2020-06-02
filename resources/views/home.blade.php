@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-    <a type="button"  href="/order" class="btn btn-dark btn-down">ЗАПИСАТЬСЯ</a>
+    <a type="button"  href="/services" class="btn btn-dark btn-down">ЗАПИСАТЬСЯ</a>
 </section>
 
 @endsection

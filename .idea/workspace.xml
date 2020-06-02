@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84512f73-5075-4177-8549-4126bfa309db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/map.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/datatimes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/datatimes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +199,8 @@
       <workItem from="1590400570047" duration="14695000" />
       <workItem from="1590575335497" duration="47000" />
       <workItem from="1590575385223" duration="28226000" />
-      <workItem from="1590678180522" duration="15564000" />
+      <workItem from="1590678180522" duration="27327000" />
+      <workItem from="1590845214663" duration="27053000" />
     </task>
     <task id="LOCAL-00001" summary="add services">
       <created>1590408342910</created>
@@ -299,21 +307,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="add some landing" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="492" y="18" key="#PHP" timestamp="1590944694394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="492" y="18" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1590944694394" />
     <state x="406" y="11" key="CommitChangelistDialog2" timestamp="1590669214318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590669214318" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1590745427643">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1590925447833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590745427643" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590925447833" />
+    <state x="604" y="344" key="NewPhpFileDialog" timestamp="1590944290479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="344" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1590944290479" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1590669217985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590669217985" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1590678209529">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1590845215245">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590678209529" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590845215245" />
   </component>
 </project>

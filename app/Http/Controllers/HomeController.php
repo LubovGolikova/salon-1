@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Service;
+
 class HomeController extends Controller
 {
     /**
@@ -34,4 +35,9 @@ class HomeController extends Controller
         return view('datatimes',compact('service'));
 
     }
+
+    public function about(){
+        return view('about');
+    }
+
 }
