@@ -20,13 +20,14 @@
              <p>----------------------</p>
              Исполнитель: {{$service->user->name}}
              </div>
-
-     <a href="/admin/services/{{$service->id}}/edit" class="btn btn-secondary">Редактировать</a>
-       <form action="/admin/services/{{$service->id}}" method="POST">
-          @csrf
-          @method('DELETE')
-          <button  class="btn btn-secondary">Удалить</button>
-       </form>
+    <div class="row mb-5 ml-3 mr-5">
+         <a href="/admin/services/{{$service->id}}/edit" class="btn btn-dark">Редактировать</a>
+           <form action="/admin/services/{{$service->id}}" method="POST">
+              @csrf
+              @method('DELETE')
+              <button  class="btn btn-dark ml-5">Удалить</button>
+           </form>
+    </div>
     @endforeach
     </div>
 @endsection
