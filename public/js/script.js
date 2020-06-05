@@ -1,7 +1,8 @@
 $( document ).ready(function() {
     $('.prone').bind('click', function(){
-        $("#getTime").text(this.innerText);
-
+        let value = this.innerText;
+        $("#getTime").text(value);
+        $('input[name=Times]').val(value);
     });
 
 });

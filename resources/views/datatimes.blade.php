@@ -52,6 +52,7 @@
                         <h2>{{$service->price}} грн.</h2>
                         <h3 id="getDate">Выберите дату</h3>
                         <h3 id="getTime">Выберите время</h3>
+                        <input type="hidden" id="getTimeinput" name="Times" value="{{ old('Times') }}"  width="276" />
                         <button type="submit"  href="/order"  class="btn btn-dark btn-goon">ПРОДОЛЖИТЬ</button>
                     </div>
                 </div>

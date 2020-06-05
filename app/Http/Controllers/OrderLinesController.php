@@ -13,6 +13,7 @@ class OrderLinesController extends Controller
         $service = Service::find($request->id);
         $orderlines = new OrderLines();
         $orderlines->DateT = $request->DateT;
+        $orderlines->Times = $request->Times;
         $orderlines->services_id = $service->id;
         $orderlines->save();
         return redirect('/order');
