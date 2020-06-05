@@ -2,7 +2,7 @@
 @section('content')
     <div class="container services mt-3">
         <div class="back">
-            <a type="button"  href="/" >< Назад</a>
+            <a type="button"  href="/services" >< Назад</a>
         </div>
         <div class="title">
             <h2>Укажите Ваши данные</h2>

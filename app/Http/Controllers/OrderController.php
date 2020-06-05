@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\OrderLines;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
@@ -13,7 +14,8 @@ class OrderController extends Controller
      */
     public function index()
     {
-        return view('admin.orderAdmin');
+        $orderlines = OrderLines::all();
+        return view('admin.orderAdmin',compact('orderlines'));
     }
 
     /**
