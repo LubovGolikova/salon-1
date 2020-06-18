@@ -1,5 +1,5 @@
 @include('header')
-<section class="box-2s ">
+<section class="box-2s mb-5">
     <div class="box-2s-text align-items-center text-center justify-content-center">
         <h3>Мы находимся</h3>
     </div>

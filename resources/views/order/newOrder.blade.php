@@ -2,7 +2,7 @@
 @section('content')
     <div class="container services mt-3">
         <div class="back">
-            <a type="button"  href="/services" >< Назад</a>
+            <a id="btnBack"  >< Назад</a>
         </div>
         <div class="title">
             <h2>Укажите Ваши данные</h2>
@@ -19,7 +19,7 @@
                 </ul>
             </div>
         @endif
-        <div class="row">
+        <div class="row m-0">
             <div class="col-md-6">
                 <form method="POST" action="/order/add">
                     @csrf
@@ -76,6 +76,10 @@
                         <label for="message" class="col-md-6 col-form-label">*Обязательные поля</label>
                     </div>
 
+                    <input type="hidden" name="Times" value="{{ $Times }}" />
+                    <input type="hidden" name="DateT" value="{{ $DateT }}" />
+                    <input type="hidden" name="service" value="{{ $service->id }}" />
+
                     <div class="form-group row mb-0">
                         <div class="col offset-md-4">
                             <button type="submit" class="btn btn-dark">
@@ -85,6 +89,17 @@
                     </div>
                 </form>
             </div>
+            <div class="col-md-4 mt-5 mt-md-0">
+                <div class="container-datetime-service">
+                    <h2>{{$service->name}}</h2>
+                    <h2>{!! $service->description!!}</h2>
+                    <h2>{{$service->time}}</h2>
+                    <h2>{{$service->price}} грн.</h2>
+                    <h2>{{$DateT}}</h2>
+                    <h2>{{$Times}}</h2>
+                </div>
+            </div>
         </div>
+
     </div>
 @endsection

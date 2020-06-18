@@ -6,10 +6,13 @@ use Illuminate\Http\Request;
 use App\OrderLines;
 class OrderLinesController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         return view('datatimes');
     }
-    public function add(Request $request){
+
+    public function add(Request $request)
+    {
         $service = Service::find($request->id);
         $orderlines = new OrderLines();
         $orderlines->DateT = $request->DateT;
@@ -17,6 +20,14 @@ class OrderLinesController extends Controller
         $orderlines->services_id = $service->id;
         $orderlines->save();
         return redirect('/order');
+
+    }
+
+    public function getByDate(Request $request)
+    {
+        $date = $request->date;
+        $orderlines = OrderLines::where('DateT', '=', $date)->get();
+        return json_encode($orderlines->pluck('Times'));
 
     }
 }

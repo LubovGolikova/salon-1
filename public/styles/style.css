@@ -87,7 +87,6 @@ body{
 .btn-down{
     margin-top: 144px;
     margin-bottom: 166px;
-    margin-left: 711px;
 }
 
 .bg-light-p {
@@ -173,10 +172,37 @@ body{
 }
 
 /*order*/
-.back a{
+#btnBack{
+    background: transparent;
+    border: none;
     font-family: 'Open Sans';
     color: #9BBDC2;
     font-size: 16px;
+    padding: 20px 0 0 20px;
+}
+#btnBack:hover{
+    background: transparent;
+    border: none;
+    font-family: 'Open Sans';
+    color: #9BBDC2;
+    font-size: 18px;
+    padding: 20px 0 0 20px;
+}
+.back-lv{
+    background: transparent;
+    border: none;
+    font-family: 'Open Sans';
+    color: #9BBDC2;
+    font-size: 16px;
+    padding: 20px 0 0 20px;
+}
+.back-lv:hover{
+    background: transparent;
+    border: none;
+    font-family: 'Open Sans';
+    color: #9BBDC2;
+    font-size: 18px;
+    padding: 20px 0 0 20px;
 }
 .title h2{
     margin-top: 40px;
@@ -187,8 +213,8 @@ body{
 .form-control {
     background-color: #FEF2E8 !important;
 }
-/*footer*/
 
+/*footer*/
 .footer-base{
     background-color: #FFFFEE !important;
     min-height: 100px;
@@ -203,7 +229,7 @@ body{
     font-family: 'Open Sans';
     font-size: 15px;
     letter-spacing: 0.05em;
-    padding: 40px;
+    padding: 0 40px;
 }
 .footer-box-1{
     border-right: 1px solid;
@@ -223,12 +249,7 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.time-container{
-    /*margin: auto;*/
-}
-.times{
-    /*margin-left: auto;*/
-}
+
 .container-datetime-service{
     border: 1px black solid;
     padding: 25px;
@@ -316,4 +337,37 @@ a:focus{
 }
 a.active {
     text-decoration: none!important;
+}
+
+/*table*/
+table.dataTable tbody tr {
+    background-color: #F8E2D4!important;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1400px){
+    .container-centre img{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:768px){
+    .box-1-bg{
+        display: none;
+    }
+    a.tr, a.tr:hover, a.tr.active{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .footer-box-1{
+        border: none;
+    }
+    .box-1-text h1 {
+        font-size: 45px;
+    }
 }

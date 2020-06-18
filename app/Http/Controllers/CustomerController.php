@@ -9,12 +9,16 @@ use Validator;
 use App\Customer;
 class CustomerController extends Controller
 {
-    public function index(){
-        return view('order.newOrder');
+    public function index(Request $request){
+        $service = Service::find($request->service);
+        $Times = $request->Times;
+        $DateT = $request->DateT;
+        return view('order.newOrder',compact('service', 'Times', 'DateT'));
+
     }
     public function add(Request $request){
         $validator = Validator::make($request->all(), [
-            'name'=>'required|min:3|max:150',
+            'name'=>'required|min:2|max:150',
             'phone'=>'required',
             'email'=>'required',
         ]);
@@ -27,7 +31,18 @@ class CustomerController extends Controller
         $customer->email = $request->email;
         $customer->message = $request->message;
         $customer->save();
+        $OrderLines = new OrderLines();
+        $OrderLines->services_id = $request->service;
+        $OrderLines->DateT = $request->DateT;
+        $OrderLines->Times = $request->Times;
+        $OrderLines->customers_id = $customer->id;
+        $OrderLines->save();
+
         return redirect('/order')->with('success', 'Заказ оформлен');
 
+    }
+
+    public function thank(){
+        return view('order.thank');
     }
 }

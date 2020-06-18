@@ -20,9 +20,9 @@
     <div class="tab-content">
 
         <div class="tab-pane fade show active" id="manicure">
-            <div class="row align-items-center justify-content-center pt-5 text-center">
+            <div class="row align-items-center justify-content-center pt-5 m-0 text-center">
                 @for($i=0;$i<=2;$i++)
-                    <div class="card ml-5" style="width: 18rem;">
+                    <div class="card ml-md-5 mb-5" style="width: 18rem;">
                         <img src="{{$allservices[$i]->path}}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{$allservices[$i]->name}}</h5>
@@ -36,9 +36,9 @@
             </div>
         </div>
         <div class="tab-pane fade" id="coating">
-            <div class="row align-items-center justify-content-center pt-5 text-center">
+            <div class="row align-items-center justify-content-center pt-5 m-0 text-center">
                 @for($i=3;$i<=5;$i++)
-                    <div class="card ml-5" style="width: 18rem;">
+                    <div class="card ml-md-5 mb-5" style="width: 18rem;">
                         <img src="{{$allservices[$i]->path}}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{$allservices[$i]->name}}</h5>
@@ -52,9 +52,9 @@
             </div>
         </div>
         <div class="tab-pane fade" id="pedicure">
-            <div class="row align-items-center justify-content-center pt-5 text-center">
+            <div class="row align-items-center justify-content-center pt-5 m-0 text-center">
                 @for($i=6;$i<=8;$i++)
-                    <div class="card ml-5" style="width: 18rem;">
+                    <div class="card ml-md-5 mb-5" style="width: 18rem;">
                         <img src="{{$allservices[$i]->path}}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{$allservices[$i]->name}}</h5>

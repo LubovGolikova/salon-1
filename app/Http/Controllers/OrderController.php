@@ -14,6 +14,7 @@ class OrderController extends Controller
      */
     public function index()
     {
+//        $orderlines = OrderLines::simplePaginate(5);
         $orderlines = OrderLines::all();
         return view('admin.orderAdmin',compact('orderlines'));
     }

@@ -24,12 +24,13 @@ Route::get('/services',"HomeController@services");
 Route::get('/about',"HomeController@about");
 
 //orderCustomer
-Route::get('/order','CustomerController@index');
+Route::post('/order','CustomerController@index');
 Route::post('/order/add','CustomerController@add');
-
+Route::get('/order','CustomerController@thank');
 //orderlines
 Route::get('/datatimes/{id}',"HomeController@datatimes");
 Route::post('/datatimes/{id}',"OrderLinesController@add");
+Route::post('/getOrderLines',"OrderLinesController@getByDate");
 
 //admin
 Route::get('/admin','AdminController@index');
@@ -37,3 +38,5 @@ Route::get('/admin/services/create','AdminController@create');
 Route::resource('/admin/services','ServiceController');
 Route::resource('/admin/orders','OrderController');
 Route::get('/admin/services/{{$service->id}}','ServiceController@edit');
+
+

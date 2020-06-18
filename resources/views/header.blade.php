@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Маникюрные услуги</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 
     <link rel="icon" href="{{asset('assets/images/favicon.ico')}}" type="image/x-icon">
@@ -14,11 +14,16 @@
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/gijgo@1.9.13/js/messages/messages.ru-ru.js" type="text/javascript"></script>
+    <script src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 </head>
@@ -47,7 +52,7 @@
                 </ul>
                 <span class="navbar-text">
                        КОНТАКТЫ   +380934567656
-                    <a type="button" href="/services" class="btn btn-dark btn-up">ЗАПИСАТЬСЯ</a>
+                    <a type="button" href="/services" class="btn btn-dark btn-up mt-2 mt-md-0">ЗАПИСАТЬСЯ</a>
     </span>
             </div>
         </div>

@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84512f73-5075-4177-8549-4126bfa309db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/russian.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/order/thank.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/OrderLinesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/styles/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/datatimes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/datatimes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/order/newOrder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/order/newOrder.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +140,12 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
     </include_path>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1cG1dabTzxxoYuxLQDhhUV3uejx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,6 +181,8 @@
       <recent name="E:\#OSPanelNew\OpenServer\domains\salon\resources\views\order" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\salon\resources\views\order" />
+      <recent name="E:\OSPanel\domains\salon\public\assets" />
       <recent name="E:\#OSPanelNew\OpenServer\domains\salon\public\assets\images" />
       <recent name="E:\#OSPanelNew\OpenServer\domains\salon\public" />
     </key>
@@ -202,6 +225,8 @@
       <workItem from="1591354613952" duration="21000" />
       <workItem from="1591355108370" duration="41000" />
       <workItem from="1591355151284" duration="4945000" />
+      <workItem from="1592474277060" duration="35000" />
+      <workItem from="1592474314073" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="add services">
       <created>1590408342910</created>
@@ -330,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add services" />
     <MESSAGE value="add auth" />
     <MESSAGE value="Default Changelist" />
@@ -360,10 +384,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="406" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591360196019" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1591355146712">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1592474309702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591355146712" />
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592474309702" />
     <state x="604" y="344" key="NewPhpFileDialog" timestamp="1590944290479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -372,9 +396,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591360200051" />
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591355113152">
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1592474286036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591355113152" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592474286036" />
   </component>
 </project>

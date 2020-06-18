@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="box-1 row">
+<section class="box-1 row m-0">
     <div class="container-right-box1 col-md-6">
         <div class="box1-img">
             <img src="{{asset('assets/images/box1.png')}}" alt=""/>
@@ -8,7 +8,7 @@
     </div>
     <div class="container-left-box1 col-md-6">
         <div class="box1-double col">
-            <div class="box-1-text">
+            <div class="box-1-text mb-5">
                 <h2>АККУРАТНЫЕ НОГОТКИ!</h2>
                 <h1>Маникюрные услуги</h1>
                 <p>Хорошее настроение, желание полюбоваться своими ручками-чувства,
@@ -18,12 +18,10 @@
                     поднимет настроение, а также
                     дает воплотить любые ваши фантазии. </p>
             </div>
-            <div class="box-1-bg">
-            </div>
         </div>
 
     </div>
-    <div class="container-centre">
+    <div class="container-centre w-100">
         <img src="{{asset('assets/images/z3.png')}}" alt=""/>
     </div>
 </section>
@@ -44,7 +42,9 @@
             </div>
         </div>
     </div>
+    <div class="text-center">
     <a type="button"  href="/services" class="btn btn-dark btn-down">ЗАПИСАТЬСЯ</a>
+    </div>
 </section>
 
 @endsection
