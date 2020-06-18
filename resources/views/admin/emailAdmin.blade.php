@@ -15,7 +15,7 @@
             <td>1.</td>
             <td>{{$orderlines->DateT}}</td>
             <td>{{$orderlines->Times}}</td>
-            <td>{{$orderlines->services_id}}</td>
+            <td>{{$orderlines->services_id }}</td>
             <td>{{\Illuminate\Support\Carbon::parse($orderlines->created_at)->format('d.m.Y')}}</td>
         </tr>
         </tbody>
