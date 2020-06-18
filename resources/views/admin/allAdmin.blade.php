@@ -29,5 +29,8 @@
            </form>
     </div>
     @endforeach
+        <div class="container-pagination text-align-centre">
+            {{$allservices->links()}}
+        </div>
     </div>
 @endsection

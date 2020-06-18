@@ -14,7 +14,6 @@ class OrderController extends Controller
      */
     public function index()
     {
-//        $orderlines = OrderLines::simplePaginate(5);
         $orderlines = OrderLines::all();
         return view('admin.orderAdmin',compact('orderlines'));
     }
@@ -82,6 +81,7 @@ class OrderController extends Controller
      */
     public function destroy($id)
     {
-        //
+        OrderLines::find($id)->delete();
+        return back();
     }
 }

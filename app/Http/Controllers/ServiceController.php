@@ -15,7 +15,7 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        $allservices = Service::all();
+        $allservices = Service::paginate(5);
         return view('admin.allAdmin',compact('allservices'));
     }
 

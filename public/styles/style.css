@@ -344,7 +344,11 @@ table.dataTable tbody tr {
     background-color: #F8E2D4!important;
 }
 
+.container-pagination{
+    margin-top: 5px;
+    margin-left: auto;
 
+}
 
 
 

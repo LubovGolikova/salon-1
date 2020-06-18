@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use App\OrderLines;
 use App\Service;
 use Illuminate\Http\Request;
+use App\Mail\OrderShipped;
 use Validator;
 use App\Customer;
+use Illuminate\Support\Facades\Mail;
 class CustomerController extends Controller
 {
     public function index(Request $request){
@@ -38,6 +40,7 @@ class CustomerController extends Controller
         $OrderLines->customers_id = $customer->id;
         $OrderLines->save();
 
+        Mail::to($customer->email )->send(new OrderShipped($OrderLines));
         return redirect('/order')->with('success', 'Заказ оформлен');
 
     }
