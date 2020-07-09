@@ -21,11 +21,12 @@
                 @foreach($orderlines as $orderline)
                     <tr>
                         <div class="container-orderlines row">
+
                             <td>{{$loop->iteration}}</td>
                             <td><p>{{$orderline->DateT}}</p></td>
                             <td><p>{{$orderline->Times}}</p></td>
-                            <td><p>{{$orderline->services_id}}</p></td>
-                            <td><p>{{$orderline->customers_id}}</p></td>
+                            <td><p>{{$orderline->service->name}}</p></td>
+                            <td><p>{{$orderline->customer->name}}</p></td>
                             <td><p>{{\Illuminate\Support\Carbon::parse($orderline->created_at)->format('d.m.Y')}}</p></td>
                         </div>
                         <td>
